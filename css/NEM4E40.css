@@ -1,0 +1,33 @@
+
+body {
+    font-size: 12pt;
+}
+
+h3 {
+    background-color: #99E699;
+    color: white;
+    width: 100%;
+}
+
+table {
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 2px;
+}
+
+td {
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12pt;
+}
+
+iframe {
+    font-size: 50pt;
+    font-style: italic;
+}
+
+tr {
+    background-color: #ffffff;
+    //color:#000000;
+}
