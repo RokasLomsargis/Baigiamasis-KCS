@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+    <title>Baigiamasis_2Versija</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        
+        body {
+            font-size: 12pt;
+        }
+
+        h3 {
+            background-color: #99E699;
+            color: white; /*text*/
+            width: 100%;
+        }
+
+        table {
+            border-color: #CCCCCC;
+            border-style: solid;
+            border-width: 3px;
+        }
+
+        td {
+            border-color: #CCCCCC;
+            border-style: solid;
+            border-width: 1px;
+            font-size: 13pt;
+        }
+        tr:hover{ /*tr hoverina po eilutę, td hoverina po vieną langelį*/
+            background-color:#f5f5f5;
+        }
+
+    </style>
+    <script src="2versija.js"></script>
+</head>
+
+<body>
+<!--<meta HTTP-EQUIV="REFRESH" CONTENT="45">-->
+<h3 align="center">LIVE DATA</h3>
+
+<div>
+    <table id="main" align="center" cellpadding="10" cellspacing="0" border="0">
+        <tr style="background-color:#EEEEEE">
+            <td><b>    </b></td>
+            <td><b><i>ACHILLES</i> KCS 12345 </b></td>
+            <td><b><i>APOLLO</i> KCS 23456 </b></td>
+            <td><b><i>CRONOS</i> KCS 34567 </b></td>
+            <td><b><i>POSEIDON</i> KCS 45678 </b></td>
+        </tr>
+
+        <tr>
+            <td>WIND SPEED, m/s</td>
+            <td><iframe src="http://88.222.216.63:17531/readreg.htm;reg-R1068;fmt-REAL;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+            </iframe></td>
+            <td><iframe src="http://88.222.216.63:17587/readreg.htm;reg-R1068;fmt-REAL;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17588/readreg.htm;reg-R1068;fmt-REAL;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17589/readreg.htm;reg-R1068;fmt-REAL;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+        </tr>
+
+        <tr>
+            <td>POWER, kW</td>
+            <td><iframe src="http://88.222.216.63:17531/readreg.htm;reg-R1075;fmt-UINT;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17587/readreg.htm;reg-R1075;fmt-UINT;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17588/readreg.htm;reg-R1075;fmt-UINT;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17589/readreg.htm;reg-R1075;fmt-UINT;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+        </tr>
+
+        <tr>
+            <td>ROTOR rpm</td>
+            <td><iframe src="http://88.222.216.63:17531/readreg.htm;reg-R1063;fmt-REAL;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17587/readreg.htm;reg-R1063;fmt-REAL;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17588/readreg.htm;reg-R1063;fmt-REAL;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17589/readreg.htm;reg-R1063;fmt-REAL;rfs-10" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+        </tr>
+
+        <tr>
+            <td>NACELLE DIRECTION, &#176</td>
+            <td><iframe src="http://88.222.216.63:17531/readreg.htm;reg-R1284;fmt-INT;rfs-100" height="18" width="90"
+                    marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                </iframe></td>
+            <td><iframe src="http://88.222.216.63:17587/readreg.htm;reg-R1284;fmt-INT;rfs-100" height="18" width="90"
+                    marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+            </iframe></td>
+            <td><iframe src="http://88.222.216.63:17588/readreg.htm;reg-R1284;fmt-INT;rfs-100" height="18" width="90"
+                    marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+            </iframe></td>
+            <td><iframe src="http://88.222.216.63:17589/readreg.htm;reg-R1284;fmt-INT;rfs-100" height="18" width="90"
+                    marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+            </iframe></td>
+        </tr>
+
+        <tr>
+            <td>OPERATING HRS</td>
+            <td><iframe src="http://88.222.216.63:17531/readreg.htm;reg-R1280;fmt-UDINT;rfs-100" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17587/readreg.htm;reg-R1280;fmt-UDINT;rfs-100" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17588/readreg.htm;reg-R1280;fmt-UDINT;rfs-100" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17589/readreg.htm;reg-R1280;fmt-UDINT;rfs-100" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+        </tr>
+
+        <tr>
+            <td>PRODUCED kWh</td>
+            <td><iframe src="http://88.222.216.63:17531/readreg.htm;reg-R1282;fmt-UDINT;rfs-100" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17587/readreg.htm;reg-R1282;fmt-UDINT;rfs-100" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17588/readreg.htm;reg-R1282;fmt-UDINT;rfs-100" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17589/readreg.htm;reg-R1282;fmt-UDINT;rfs-100" height="18" width="90"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+        </tr>
+
+        <tr>
+            <td>STATUS</td>
+            <td><iframe src="http://88.222.216.63:17531/readreg.htm;reg-R1103;fmt-INT;rfs-100" height="18" width="40"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe>:
+                    <iframe src="http://88.222.216.63:17531/readreg.htm;reg-R1104;fmt-INT;rfs-100" height="18" width="40"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17587/readreg.htm;reg-R1103;fmt-INT;rfs-100" height="18" width="40"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe>:
+                    <iframe src="http://88.222.216.63:17587/readreg.htm;reg-R1104;fmt-INT;rfs-100" height="18" width="40"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17588/readreg.htm;reg-R1103;fmt-INT;rfs-100" height="18" width="40"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe>:
+                    <iframe src="http://88.222.216.63:17588/readreg.htm;reg-R1104;fmt-INT;rfs-100" height="18" width="40"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+            <td><iframe src="http://88.222.216.63:17589/readreg.htm;reg-R1103;fmt-INT;rfs-100" height="18" width="40"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe>:
+                    <iframe src="http://88.222.216.63:17589/readreg.htm;reg-R1104;fmt-INT;rfs-100" height="18" width="40"
+                        marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+                    </iframe></td>
+        </tr>
+
+    </table>
+
+</div>
+</body>
+
+</html>
